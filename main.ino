@@ -11,8 +11,8 @@
 #define XPT2046_CS 33    // T_CS
 
 // WiFi credentials
-const char* ssid = "ARRIS-8F6B";
-const char* password = "2W4335101475";// wifi must be hardcoded for now
+const char* ssid = "";
+const char* password = "";// wifi must be hardcoded for now
 
 // Firmware version
 const char* firmwareVersion = "V_0.3.1"; 
