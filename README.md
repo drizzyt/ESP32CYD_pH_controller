@@ -3,10 +3,17 @@ This repo for code related to building a touchscreen interface for a pH controll
 
 Once i get a production working version in the Arduino Environment, would like to work on the ESP-IDF framework
 
-Testing Framework: Arduino
+  Testing Framework: Arduino
 
 MAIN PAGE  
   -Icon to display wifi status
   -Three buttons across the top screen: Home Icon, pH, Settings
   -Temperature data displayed on left side
   -pH data displayed on right side
+
+Settings Page
+  -Shows Firmware Version, Wifi SSID(if connected), MAC Address, LVGL Version
+
+Wifi Page
+  -Home button
+  -two column table: SSID, Signal Strength(dBm)(doesnt discern between any of the networks, and your connected networks)
